@@ -17,5 +17,5 @@ e-paper의 가이드는 [이쪽](https://www.waveshare.com/wiki/3.5inch_e-Paper_
 2. 전체 한글 파일을 사용하지 않기 때문에 BeautifulSoup를 통해 글 제목에서 사용된 글자들을 추출 후 유니코드로 변환해 bmfont 파일의 스냅샷을 수정해 비트맵 폰트를 생성
 3. ASCII 문자만 사용하는 sfont의 비트맵 데이터를 나눔고딕 cfont 파일에 덮어씌움
 ## 결과물
-(핫딜 외 다른 게시판을 볼 수 있도록 한 결과물)
+(핫딜 외 다른 게시판을 볼 수 있도록 한 결과물)  
 <img src="./img/scraper.jpg" width=500 height=500/>
