@@ -6,7 +6,8 @@ BeautifulSoup와 json을 사용해 특정 웹사이트([sff갤러리 핫딜게�
 #### 단말
 ESP32에 전자잉크 패널을 연결해 5분간격(새로고침 주기 변경 가능)으로 글 목록을 업데이트 및 출력하도록 함.  
 ESP32와 전자잉크 패널의 경우 WaveShare의 [e-paper ESP32 driver board](https://www.waveshare.com/wiki/E-Paper_ESP32_Driver_Board)와 [3.5" 전자잉크패널(384*184)](https://www.waveshare.com/3.5inch-e-paper-module-g.htm) 사용  
-e-paper의 가이드는 [이쪽](https://www.waveshare.com/wiki/3.5inch_e-Paper_Module_(G))에서 확인, Waveshare의 전자잉크패널 튜토리얼 파일을 수정해 제작
+e-paper의 가이드는 [이쪽](https://www.waveshare.com/wiki/3.5inch_e-Paper_Module_(G))에서 확인, Waveshare의 전자잉크패널 튜토리얼 파일을 수정해 제작  
+[Naver나눔폰트 다운로드](https://hangeul.naver.com/fonts/search?f=nanum) <- 여기서 나눔고딕 ttf 사용  
 ## 문제 및 해결
 #### 문제
 1. 가이드 파일의 경우 ASCII코드의 sfont와 일부 한자의 cfont 파일만 존재, 한글을 출력하기 위해서는 한글 cfont가 필요.  
